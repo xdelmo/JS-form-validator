@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/index.css">
+
+    <title>JavaScript Form Validator</title>
+</head>
+
+<body>
+    <main>
+
+        <form action="./" id="signup">
+
+            <div class="input">
+                <label for="username" class="input__label">Username</label>
+                <input type="text" id="username" class="input__input">
+                <div class="input__error"></div>
+            </div>
+
+            <div class="input">
+                <label for="preferredLanguage" class="input__label">Preferred Language</label>
+                <select class="input__input" id="preferredLanguage">
+                    <option value="javascript">JavaScript</option>
+                    <option value="typescript">TypeScript</option>
+                    <option value="go">Go</option>
+                    <option value="kotlin">Kotlin</option>
+                </select>
+                <div class="input__error"></div>
+            </div>
+
+            <button class="btn" type="submit">Sign Up</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="attribution">
+            <span>Coded by <a href="https://github.com/xdelmo" target="_blank">Emanuele Del Monte</a>.</span>
+        </div>
+    </footer>
+
+    <script src="scripts/index.js" type="module"></script>
+</body>
+
+</html>
